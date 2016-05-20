@@ -4,6 +4,7 @@ package com.emusicstore.model;
  * Created by epidemio on 17/05/2016.
  */
 public class Product {
+        private String productId;
         private String productName;
         private String productCategory;
         private String productDescription;
@@ -23,6 +24,14 @@ public class Product {
 
     public String getProductCategory() {
         return productCategory;
+    }
+
+    public String getProductId() {
+        return productId;
+    }
+
+    public void setProductId(String productId) {
+        this.productId = productId;
     }
 
     public void setProductCategory(String productCategory) {
